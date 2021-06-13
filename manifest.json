@@ -1,0 +1,20 @@
+{
+    "name":"Lu Blogger On-Page SEo",
+    "description":"Best Blogger On-Page SEO For ever",
+    "version":"1.0",
+    "manifest_version": 2,
+    "content_scripts":[
+        {
+			
+			"matches":["https://www.blogger.com/*"],
+			//"matches":["<all_urls>"],
+			
+            "js":["content.js"]
+        }
+    ],
+    "browser_action":{
+        "default_icon":"1.png"
+       // "default_popup":"popup.html",
+       // "default_title":"demo luka"
+    }
+}
